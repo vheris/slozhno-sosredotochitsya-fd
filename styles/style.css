@@ -82,7 +82,7 @@
   left: var(--decor-padding);
 }
 
-.header__decor-elem{
+.header__decor-elem {
   position: absolute;
   top: 0;
   right: 0;
