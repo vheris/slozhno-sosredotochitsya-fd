@@ -2,3 +2,25 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  --decor-padding: 10px;
+  --h1-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-family: "IBM Plex Mono", "Arial", sans-serif;
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --main-line-height: 1.3;
+  --section-padding-top: 40px;
+  --section-padding-bottom: 50px;
+  --main-font-size: 18px;
+  --main-margin: 0 10px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --decor-padding: 20px;
+    --h1-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --section-padding-top: 60px;
+    --section-padding-bottom: 80px;
+    --main-margin: 0 20px;
+  }
+}
