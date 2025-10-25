@@ -33,11 +33,11 @@
     gap: 10px;
 }
 
-.h1__title {
+.main__title {
   color: var(--header-title-color);
   font-family: inherit;
   line-height: 0.83;
-  font-size: var(--h1-size);
+  font-size: var(--main-title-size);
   font-weight: 700;
   text-shadow: 4px 4px 0 var(--primary-color);
 }
@@ -158,7 +158,7 @@
   gap: 20px;
 }
 
-.question__section-title-h2 {
+.question__section-title-medium {
   color: var(--decor-elem-color);
   font-weight: 700;
   font-size: var(--main-font-size);
@@ -178,7 +178,7 @@
   gap: 10px;
 }
 
-.title-h3 {
+.title-decor {
   color: var(--header-text-color);
   background-color: var(--primary-color);
   font-size: var(--main-font-size);
@@ -192,7 +192,7 @@
   line-height: var(--main-line-height);
 }
 
-.question__section-title-h4 {
+.question__section-title-small {
   color: var(--header-text-color);
   background-color: var(--primary-color);
   font-size: var(--main-font-size);
@@ -206,7 +206,8 @@
 }
 
 .question__section-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid var(--paragaph-text-color);
 }
 
 .question__section-link:focus {
@@ -263,7 +264,6 @@
   .header__description {
     align-self: center;
     margin-block-start: 0;
-    margin-inline-end: 10px;
     max-inline-size: 364px;
   }
 
