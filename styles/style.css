@@ -122,6 +122,10 @@
   text-transform: lowercase;
 }
 
+.header__theme-menu-button:hover {
+  border: 1px solid var(--border-color-opacity);
+}
+
 .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--decor-elem-color);
